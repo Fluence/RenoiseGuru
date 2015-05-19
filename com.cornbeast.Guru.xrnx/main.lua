@@ -1,12 +1,16 @@
 --[[============================================================================
 
-Guru V1.6
+Guru V1.7
 Generic midi synth mapper for Renoise
 
 ============================================================================
 
 Todo: 
-
+* DONE: Update for Renoise 3
+* Add the current working templates into the guru tool
+* Presets that are saved, do not work correctly (Resend issue)
+* Other type of encoders to save huge space. This will probably require a recode of the current synthdefinitions.
+* Prepare functions for the patch/bank dump of sysex information and librarian kind of stuff.
 * Blofeld change to :value(xxx)
 * DW8000 midi channel: "3n  Where n = the MIDI channel of your DW-8000: 30 = channel 1...3f = channel 16"
 * Fun stuff: random patches, morph between patches :-)
